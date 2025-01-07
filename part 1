@@ -1,0 +1,9 @@
+lines = int(input("How many levels have you cleared: "))
+if lines < 100:
+    print ("Novice")
+elif lines < 200:
+    print ("Intermediate")
+elif lines < 300:
+    print ("Advanced")
+else:
+    print ("Expert"
